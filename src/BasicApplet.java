@@ -16,6 +16,7 @@ public class BasicApplet extends JApplet{
 			JPanel panel = new JPanel(new BorderLayout());
 			panel.setOpaque(true);
 			JLabel label = new JLabel("Test Label");
+			panel.add(label);
 			setContentPane(panel);
 			setSize(600,400);
 	}
